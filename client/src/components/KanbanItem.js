@@ -25,7 +25,7 @@ class KanbanItem extends Component {
         draggable
         onDragStart={this.props.onDragStart}
 
-        className="draggable mx-3 pt-5"
+        className="mx-3 pt-5"
         onMouseEnter={this.handleMouseEnter}
         onMouseLeave={this.handleMouseLeave}
         >
@@ -36,7 +36,7 @@ class KanbanItem extends Component {
             className={`${this.props.headerColor} inline-block h-full flex-initial py-2`}
             >&nbsp;</span>
           <h4 
-            className="inline-block ml-auto flex items-center justify-center flex-1 cursor-move relative"
+            className="inline-block ml-auto flex items-center justify-center flex-1 cursor-move relative p-3"
             >
             {this.props.taskTitle}
             {

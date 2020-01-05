@@ -109,7 +109,7 @@ class App extends Component {
           showAddNewTask={this.showAddNewTask} 
           handleKeyPress={this.handleKeyPress} 
           />
-        <div className="container-draggable flex flex-col md:flex-row m-10">
+        <div className="container-draggable flex flex-col md:flex-row justify-center m-10">
           {this.renderKanbanContainers()}
         </div>
       </div>
