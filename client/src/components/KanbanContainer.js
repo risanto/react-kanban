@@ -26,7 +26,7 @@ class KanbanContainer extends Component {
         id={this.props.headerText.toLowerCase()}
         onDragOver={this.props.onDragOver}
         onDrop={this.props.onDrop} 
-        className="max-w-sm min-w-full mx-auto md:min-w-1/4 mb-5 flex-col bg-white rounded-lg shadow"
+        className="max-w-sm min-w-full mx-3 md:min-w-1/4 mb-5 flex-col bg-white rounded-lg shadow"
         >
         <div
           className={`${this.props.headerColor} h-10 w-full rounded text-white flex items-center p-3`}
